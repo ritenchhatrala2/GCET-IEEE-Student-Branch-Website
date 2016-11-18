@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<!-- Original demo by Cudazi (http://cudazi.com/) for Envato -->
+	
+	<title>Demo Page</title>	
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	
+	<!-- Stylesheet import -->
+		<!-- Shared stylesheet for both page and promo styles -->
+		<link type="text/css" href="css/screen.css" rel="stylesheet" media="screen" />
+	<!-- // Stylesheet import -->
+	
+	
+	
+	<!-- JavaScript Import and Setup -->
+
+		<!-- Load the latest version of jQuery // Loading from Code.Google.com to improve speed -->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		
+		<!-- Load the latest version of jQuery Cycle -->
+		<!-- Note: There are multiple variations of Cycle: Lite, Full, Compressed and so on, we will use the compress version with all transtions -->
+		<script type="text/javascript" src="js/jquery.cycle.all.min.js"></script>
+		
+		<!-- Load the setup file -->
+		<!-- This could be inserted right on the page but loading externally keeps things clean -->
+		<script type="text/javascript" src="js/setup.js"></script>
+		
+	<!-- // JavaScript Import and Setup -->
+
+
+	
+</head>
+<body>
+	<div id="outer">
+		<h1>Demo - Slider Installed</h1>
+		
+		
+		<!-- Promo slide container and slides -->
+		<ul id="promo">
+			<li><img src="images/sample_water.jpg" alt="Slide One" /></li>
+			<li><img src="images/sample_hills.jpg" alt="Slide Two" /></li>
+			<li><img src="images/sample_park.jpg" alt="Slide Three" /></li>
+		</ul>
+		<!-- // Promo slide container and slides -->
+		
+		
+		<!-- Optional Promo Navigation -->
+		<div id="promonav">
+			<a href="javascript:void(0);" class="next">Next Slide</a><!-- next slide button, corresponds to the 'next' parameter -->
+			<div id="promoindex"></div><!-- promo index, automatically generated if the 'pager' parameter is set. By entering it manually, we can control where it goes. -->
+		</div>
+		<!-- // Optional Promo Navigation -->
+		
+
+<h2>Promo Structure:</h2>
+
+<pre><code>&lt;ul id=&quot;promo&quot;&gt;
+   &lt;li&gt;&lt;img src=&quot;images/sample_water.jpg&quot; alt=&quot;Slide One&quot; /&gt;&lt;/li&gt;
+   &lt;li&gt;&lt;img src=&quot;images/sample_hills.jpg&quot; alt=&quot;Slide Two&quot; /&gt;&lt;/li&gt;
+   &lt;li&gt;&lt;img src=&quot;images/sample_park.jpg&quot; alt=&quot;Slide Three&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+<!-- // -->
+
+
+		<h2>Setup</h2>
+		<p>Basic settings used in js/setup.js are listed below, the full <a href="http://jquery.malsup.com/cycle/options.html">option reference</a> contains the options and sample values for your own specific customizations.</p>
+
+<!-- note, this is just for display -->
+<pre><code>$('#promo').cycle({
+   fx: 'scrollHorz',
+   timeout: 4000,
+   speed: 800,
+   next: '#promonav .next',
+   pager: '#promoindex',
+   height: 200,
+   pause: 1
+});</code></pre>
+
+
+		<h2>Resources</h2>
+		<ul>
+			<li><a href="http://jquery.malsup.com/cycle/options.html">Full options reference</a></li>
+			<li><a href="http://jquery.malsup.com/cycle/browser.html">Effects Browser</a></li>
+			<li><a href="http://jquery.malsup.com/cycle/">Beginner to Advanced Demos</a></li>
+			<li><a href="http://jquery.malsup.com/cycle/more.html?v2.23">Even More Demos</a></li>
+			<li><a href="http://jquery.malsup.com/cycle/faq.html">FAQ's</a></li>
+		</ul>
+		
+	</div>
+</body>
+</html>

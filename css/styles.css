@@ -1,0 +1,914 @@
+@charset "utf-8";
+/* CSS for MelissaHie.com */
+
+/*
+	RESET STYLES 
+	http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/
+*/
+
+html, body, div, span, applet, object, iframe, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {s
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 14px;
+	font-family: inherit;
+	vertical-align: top;
+	text-transform: none;
+	color: #FFFFFF;
+	margin: 0;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background:#000000;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+/* *************************************** */
+
+
+html {
+	overflow: hidden;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color:#000000;
+	background-image: url(../images/bg.gif);
+	background-attachment: fixed;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, Arial, Helvetica, sans-serif;
+}
+
+strong {
+	font-weight: bold;
+}
+
+.clear {clear:both}
+
+#container {
+	width: 3700px;
+	height: 1650px;
+}
+
+
+/** PAGE POSITIONING **/
+
+.positioning {
+	position: absolute;
+	width: 1200px;
+	height: 800px;
+}
+
+	#start {
+	top: 0px;
+	left: 0px;
+	background-repeat: repeat-x;
+	background-position: right bottom;
+	background-image: url(../images/print/Untitled-1.jpg);
+	}
+	
+	#about {
+	top: 850px;
+	left: 0px;
+	background-image: url(../images/print/Untitled-1.jpg);
+	background-repeat: repeat-x;
+	}
+	
+	#work {
+	top: 850px;
+	left: 1250px;
+	background-image: url(../images/print/Untitled-1.jpg);
+	background-repeat: repeat-x;
+	
+	}
+		
+		
+	#contact {
+	top: 0px;
+	left: 1250px;
+	background-repeat: repeat-x;
+	background-image: url(../images/print/Untitled-1.jpg);
+	}
+		
+	#print {
+	top: 0px;
+	left: 2500px;
+	background-image: url(../images/print/Untitled-1.jpg);
+	background-repeat: repeat-x;
+	}
+		
+	#skills {
+	top: 850px;
+	left: 2500px;
+	background-image: url(../images/print/Untitled-1.jpg);
+	background-repeat: repeat-x;
+	}
+
+.inside {
+	margin: 30px 60px;
+	width: 720px;
+}
+
+.inside_event {
+	margin: 30px 60px;
+	width: 990px;
+}
+
+
+.inside1 {
+	width: 700px;
+	height: 0px;
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-bottom: 30px;
+	margin-left: 20px;
+}
+
+.inside_gallery {
+	margin: 30px 60px;
+	width: 990px;
+}
+
+
+.inside_bp {
+	width: 995px;
+	margin-top: 30px;
+	margin-right: 60px;
+	margin-bottom: 30px;
+	margin-left: 60px;
+}
+
+.inside_link{
+	width: 950px;
+	height: 400px;
+	margin-top: 30px;
+	margin-right: 60px;
+	margin-bottom: 30px;
+	margin-left: 60px;
+}
+
+
+.inside_wtj {
+	width: 990px;
+	margin-top: 30px;
+	margin-right: 60px;
+	margin-bottom: 10px;
+	margin-left: 60px;
+}
+
+
+	
+	.inside h3 {
+		text-transform: uppercase;
+		font-size: 12px;
+		padding-bottom: 5px;
+	}
+
+	.inside .text {
+		font-size: 11px;
+		color: #FFF;
+		text-align: justify;
+		line-height: 22px;
+		height: 250px;
+		width: 720px;
+	}
+	
+	.profile {
+		display: block;
+		float: left;
+		width: 88px;
+		height: 250px;
+		background-image: url(../images/pf.jpg);
+		background-repeat: no-repeat;
+		margin-right: 20px;
+		margin-bottom: 10px;
+		border: 10px solid #ca117d;
+	}
+	
+	.inside .index {
+		background-image: url(../images/index.gif);
+		width: 250px;
+		height: 150px;
+		display: block;
+		clear: both;
+		margin: 0px 0px;
+		text-indent: -999em;
+	}
+	
+	.index_up {
+	background-color: #000000;
+	width: 1200px;
+	height: 120px;
+	display: block;
+	clear: both;
+	margin: 0px;
+	}
+	
+	.index {
+	background-image: url(../images/print/Gcet.png);
+	width: 186px;
+	height: 100px;
+	display: block;
+	clear: both;
+	margin-top: 10px;
+	margin-left: 10px;
+	text-indent: -999em;
+	}
+
+.index1 {
+	background-image: url(../images/print/IEEE.png);
+	width: 186px;
+	height: 100px;
+	display: block;
+	float: right;
+	clear: both;
+	margin-top: -120px;
+	margin-right: 10px;
+	text-indent: -999em;
+	
+	}
+ .slider1{
+	/*background-image: url(../images/big/adidas1.jpg);*/
+	width: 750px;
+	height: 200px;
+	float: right;
+	clear: both;
+	margin-top: -20px;
+	margin-right: 225px;
+	text-indent: 0px;
+	border:thick solid #FFFFFF;
+	}
+	
+	.text1 {
+	font-size: 14px;
+	background-color: #3D6BA5;
+	color: #FFFFFF;
+	text-align: justify;
+	line-height: 22px;
+	height: 180px;
+	width: 740px;
+	margin-left: 215px;
+	margin-top:200px;
+	padding: 10px;
+	
+	}
+
+.text_sb {
+	font-size: 15px;
+	color: #FFF;
+	text-align: justify;
+	line-height: 22px;
+	margin-left: 250px;
+	margin-top:-205px;
+	}
+
+.text_eb_event {
+	font-size: 15px;
+	width:250px;
+	color: #FFF;
+	text-align: justify;
+	line-height: 22px;
+	margin-top:10px;
+	padding-left:25px;
+	}
+	
+	.text_eb_event_li{
+		margin-left:25px;
+	}
+
+.text_eb_ext {
+	font-size: 15px;
+	color: #FFF;
+	width:250px;
+	height:120px;
+	text-align: justify;
+	line-height: 22px;
+	padding-left:300px;
+	margin-top:-198px;
+	}
+	
+.text_eb_pro {
+	font-size: 15px;
+	color: #FFF;
+	text-align: justify;
+	line-height: 22px;
+	margin-left: 300px;
+	margin-top:-140x;
+	padding-top:12px;
+	}
+
+
+.text_eb_bc {
+	font-size: 15px;
+	color: #FFF;
+	text-align: justify;
+	line-height: 22px;
+	margin-left: 600px;
+	margin-top:-176px;
+	}
+
+	
+		/** list for purple page **/
+		
+		.inside .text ul#purple {
+			border-top: 1px solid #7C2FA4;
+			margin: 30px 0px;
+		}
+	
+		.inside .text ul#purple li {
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+			display: block;
+			padding: 4px 16px;
+			border-bottom: 1px solid #7C2FA4;
+		}
+		
+		.inside .text ul#purple li:hover {
+			background-color: #7110A3;
+			color: #E8BFFD;
+		}
+
+/** TITLES **/
+
+.title {
+	background-repeat: no-repeat;
+	font-family: "Quicksand";
+	font-size: 50px;
+	padding-bottom: 0px;
+	letter-spacing: -5px;
+}
+
+.title_start {
+	font-family: "Quicksand";
+	font-size: 25px;
+	letter-spacing: -2px;
+}
+
+	#contact .title {
+	color: #365f92;
+	}
+
+	#about .title {
+	color: #365f92;
+	}
+	
+	#print .title {
+	color: #365f92;
+	}
+	
+	#skills .title {
+	color: #365f92;
+	}
+	
+	#work .title {
+	color: #365f92;
+	}
+	
+/** NAVIGATION BUTTONS **/
+ul.navigation1 {
+	float: left;
+	display: block;
+	width: 500px;
+	padding-top: 20px;
+	text-align: right;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+ul.navigation {
+	float: right;
+	display: block;
+	width: 540px;
+	padding-top: 20px;
+	text-align: right;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+ul.navigation_home {
+	float: right;
+	display: block;
+	width: 540px;
+	padding-top: 10px;
+	text-align: right;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+ul.navigation li {
+	display: block;
+	float: left;
+}
+
+#start ul.navigation { margin: 0 0; float: none; }
+
+a.navigator {
+	cursor: pointer;
+	display: block;
+	width: 80px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFF;
+	text-align: center;
+	margin-left: 1px;
+	padding: 5px;
+
+}
+a.navigator_home {
+	cursor: pointer;
+	display: block;
+	width: 65px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #FFF;
+	text-align: center;
+	margin-left: 1px;
+	padding: 5px;
+
+}
+
+a.navigator_BP {
+	cursor: pointer;
+	display: block;
+	width: 120px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #FFF;
+	text-align: center;
+	margin-left: 1px;
+	padding: 5px;
+
+}
+a.navigator_wtj {
+	cursor: pointer;
+	display: block;
+	width: 115px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #FFF;
+	text-align: center;
+	margin-left: 1px;
+	padding: 5px;
+
+}
+a.navigator_event {
+	cursor: pointer;
+	display: block;
+	width: 65px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #FFF;
+	text-align: center;
+	margin-left: 1px;
+	padding: 5px;
+
+}
+a.navigator_link {
+	cursor: pointer;
+	display: block;
+	width: 45px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #FFF;
+	text-align: center;
+	margin-left: 1px;
+	padding: 5px;
+
+}
+a.navigator_gallery {
+	cursor: pointer;
+	display: block;
+	width: 60px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #FFF;
+	text-align: center;
+	margin-left: 1px;
+	padding: 5px;
+
+}
+
+
+
+	#start .navigator_home { background-color:#CCCCCC; }
+	#work .navigator_BP { background-color: #003399; }
+	#print .navigator_link {
+	background-color: #365f92;
+}
+	#about .navigator_wtj { background-color:#999; }
+	#skills .navigator_event { background-color: #400061; }
+	#contact .navigator_gallery {
+	background-color: #3D6BA5;
+}
+	
+	#start .present .navigator_home,
+	#work .present .navigator_BP,
+	#print .present .navigator_gallery,
+	#about .present .navigator_wtj,
+	#skills .present .navigator_event,
+	#contact .present .navigator_link {
+	color: #FFF;
+	background-color: #2C487C;
+}
+
+/** LINKS **/
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:hover {
+	color: #FFF;
+	font-weight:bold;
+	background-color: #2C487C;
+}
+	
+	#about a {
+	color: #FFF;
+	background-color: #3D6BA5;
+	}
+	
+	#start a {
+	color: #FFFFFF;
+	background-color: #3D6BA5;
+	}
+	
+	#print a {
+	color: #FFF;
+	background-color: #365f92;
+	}
+	
+	#contact a {
+	color: #FFFFFF;
+	background-color: #3D6BA5;
+	}
+	
+	#skills a {
+	color: #FFFFFF;
+	background-color: #3D6BA6;
+	}
+	
+	#work a {
+	color: #FFFFFF;
+	background-color: #365f92;
+	}
+	
+/** PORTFOLIO **/
+
+.portfolio-item {
+	display: block;
+	float: left;
+	width: 135px;
+	height: 75px;
+	cursor: pointer;
+	margin-right: 5px;
+}
+
+.portfolio-item_btj{
+	display: block;
+	float: left;
+	width: 135px;
+	height: 75px;
+	cursor: pointer;
+	margin-right: 5px;
+}
+
+.print-item {
+	display: block;
+	float: left;
+	width: 116px;
+	height: 80px;
+	cursor: pointer;
+	margin-right: 5px;
+}
+.wtj-item {
+	display: block;
+	float: left;
+	width: 116px;
+	height: 80px;
+	cursor: pointer;
+	margin-right: 5px;
+}
+
+
+	#portfolio-item-1 {
+	background-image: url(../images/print/EXCOM.jpg);
+}
+	#portfolio-item-2 {
+	background-image: url(../images/print/COUNSELLOR.jpg);
+}
+	#portfolio-item-3 {
+	background-image: url(../images/print/TECH.jpg);
+}
+	#portfolio-item-4 {
+	background-image: url(../images/print/OLD%20EXCOM.jpg);
+}
+	#portfolio-item-5 {
+	background-image: url(../images/print/EXECUTIVE.jpg);
+}
+	
+	#phirhospring { background-image: url(../images/thumb/phirhofall07.jpg);}
+	#phirhofall { background-image: url(../images/thumb/phirhofall06.jpg);}
+	#ipi2009 { background-image: url(../images/thumb/ipi2009.jpg);}
+	#poidware { background-image: url(../images/thumb/poidware.jpg);}
+	
+/** SHOWCASE **/
+
+.strip {
+	padding-top: 15px;
+}
+.port_margin{
+/*it is margin for portfolio menu from left*/
+	padding-left:125px;
+}
+
+.showcase {
+	font-size: 14px;
+	padding: 20px;
+	color: #FFFFFF;
+	line-height: 18px;
+	height: 385px;
+	width: 950px;
+	background-color: #3D6BA5;
+	
+}
+
+.showcase_wtj {
+	font-size: 11px;
+	background-color:#003399;
+	padding: 20px;
+	color: #000000;
+	line-height: 18px;
+	height:385px;
+	width: 950px;
+	
+}
+
+.showcase_gallery {
+	font-size: 11px;
+	padding: 20px;
+	color: #FFF;
+	line-height: 18px;
+	height: 385px;
+	width: 950px;
+
+	background-color: #3D6BA5
+.;
+	background-color: #3D6BA5;
+	
+}
+
+.showcase_bp {
+	font-size: 11px;
+	color: #FFF;
+	line-height: 18px;
+	height: 385px;
+	width: 950px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	background-color: #3D6BA5;
+	padding-left: 20px;
+	overflow: auto;
+}
+
+.showcase_link {
+	font-size: 11px;
+	background-color: #3D6BA5;
+	color: #FFF;
+	line-height: 18px;
+	height: 385px;
+	padding-top: 25px;
+	padding-right: 25px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+}
+
+
+	#print .showcase {
+	background-color: #006699;
+}
+	#work .showcase { background-color: #008FD5; }
+
+
+	#print .showcasename { color: #fee097;}
+	#work .showcasename {
+	color: #FFFBF0;
+}
+	#about .showcasename {
+	color: #ffffff;
+}
+
+.showcase_e1_img1 {
+	border: 0px solid #FFF;
+	margin-bottom: 0px;
+	display: block;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-left: 30px;
+}
+.e1_img2{
+padding-left:10px;
+}
+
+.showcase_wtj {
+	font-size: 11px;
+	padding: 20px;
+	color: #FFF;
+	line-height: 18px;
+	height:385px;
+	width:950px;
+	background-color:#999;
+}
+
+
+.table_tr{
+	padding-top:10px;
+}
+
+.close-web, .close-print, .close-wtj {
+	float:right;
+	display: block;
+	font-weight: bold;
+	cursor: pointer;
+	font-size: 9px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	background-color: #000;
+	padding: 1px 6px;
+	margin-left: 4px;
+	margin-bottom: 4px;
+}
+#####Link_tile--//
+
+.tile{
+	height:100px;
+	width:200px;
+	background-color:#03C;
+	margin-left:320px;
+	margin-top:10px;
+}
+
+.tile_ieee_r10{
+	height: 175px;
+	width: 290px;
+	background-color: #FFF;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+.tile_ieee{
+	height: 175px;
+	width: 290px;
+	background-color: #FFF;
+	margin-left: 305px;
+	margin-top: -175px;
+	padding-left: 0px;
+}
+
+.tile_ieee_1{
+	height: 175px;
+	width: 290px;
+	background-color: #FFF;
+	margin-left: 610px;
+	margin-top: -175px;
+}
+
+.tile_ieee_tv{
+	height: 175px;
+	width: 290px;
+	background-color: #FFF;
+	margin-left: 0px;
+	margin-top: 35px;
+}
+
+.tile_ieee_tv1{
+	height: 175px;
+	width: 290px;
+	background-color: #FFF;
+	margin-left: 305px;
+	margin-top: -175px;
+}
+
+.tile_ieee_tv2{
+	height: 175px;
+	width: 290px;
+	background-color: #CCC;
+	margin-left: 610px;
+	margin-top: -175px;
+}
+/*FAcebook*/
+
+.home_fb{
+	height: 60px;
+	width: 60px;
+}
+.home_fb:hover{
+	border:#666;
+}
+
+
+.home_tw{
+	height: 60px;
+	width: 60px;
+	margin-top: 100px;
+	padding-top: 0px;
+}
+
+.HoverBorder {
+box-shadow: 10px 10px 5px #fff;
+}
+.HoverBorder:hover {
+box-shadow: 10px 10px 5px #888888;
+}
+
+.img_2{
+	margin-left:
+}
+
+/*
+ *	generated by WOW Slider 2.9
+ *	template Elemental
+ */
+
+#promo, #promo li
+{
+	margin-top: 22px;
+	margin-left: 108px;
+	float:left;
+	padding:0;
+	list-style-type:none;
+}
+
+/* Styles for the optional promo navigation container */
+#promonav
+{
+	padding:4px;
+	background:#eee;
+	border:1px solid #e0e0e0;
+	margin-top:1px;
+}
+
+/* Keep the next button at the right edge */
+#promonav .next
+{
+	float:right;
+}
+
+/* Link styles in promo navigation  */
+#promonav a
+{
+	padding:0 3px;
+	border:1px solid #eee;
+	text-decoration:none;
+	outline:0;
+	color:#777;
+}
+
+/* Style applied on mouseover of promo navigation link(s) */
+#promonav a:hover
+{
+	color:#000;
+}
+/* The index automatically gets an activeSlide class, use this to indicate the current slide */
+#promoindex a.activeSlide
+{
+	font-weight:bold;
+	background:#fff;
+	border-color:#ccc;
+}
